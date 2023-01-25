@@ -1,27 +1,9 @@
 const form = document.querySelector('#form-habits')
 const nlwSetup = new NLWSetup(form)
 const button = document.querySelector("header button")
-let images = document.querySelectorAll("img")
 
 button.addEventListener("click", add)
 form.addEventListener("change", save)
-
-for (let i = 0; i < images.length; i++) {
-  images[i].addEventListener("mouseover", overDescription)
-}
-for (let i = 0; i < images.length; i++) {
-  images[i].addEventListener("mouseover", outDescription)
-}
-
-function overDescription() {
-  let description = this.getAttribute("alt")
-  alert(description)
-}
-
-function outDescription() {
-  let description = this.getAttribute("alt")
-  alert("")
-}
 
 function add() {
   // const today = "19/01"
