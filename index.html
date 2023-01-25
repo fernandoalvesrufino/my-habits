@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habits</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits" />
+
+      <button>
+        <img src="./assets/plus.svg" alt="ícone sinal de mais roxo" />
+        <div>
+          Registrar o meu dia
+        </div>
+      </button>
+    </header>
+
+    <form id="form-habits">
+      <div class="habits">
+        <div class="habit" data-name="run"><img src="https://emojitool.com/img/apple/ios-13.3/man-running-type-5-1341.png" alt="emoji homem correndo"></div>
+        <div class="habit" data-name="food"><img src="https://img.icons8.com/emoji/12x/red-apple.png" alt="emoji maçã"></div>
+        <div class="habit" data-name="water"><img src="https://images.vexels.com/media/users/3/145373/isolated/preview/98721f602aa3fadb040e0a161ab3f966-ilustracao-em-gota-d-agua.png" alt="emoji garrafa d'água"></div>
+        <div class="habit" data-name="read"><img src="https://emojitool.com/img/whatsapp/2.22.8.79/books-2907.png" alt="emoji livro"></div>
+        <div class="habit" data-name="work"><img src="https://images.emojiterra.com/google/android-pie/512px/1f4bb.png" alt="emoji computador"></div>
+      </div>
+
+      <div class="days"></div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
