@@ -6,8 +6,8 @@ button.addEventListener("click", add)
 form.addEventListener("change", save)
 
 function add() {
-  const today = "21/01"
-  // const today = new Date().toLocaleDateString('pt-br').slice(0, -5)
+  // const today = "21/01"
+  const today = new Date().toLocaleDateString('pt-br').slice(0, -5)
   const dayExists = nlwSetup.dayExists(today)
   
   if(dayExists) {
