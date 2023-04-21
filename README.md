@@ -47,11 +47,6 @@ This project is under the MIT license.
 <h1 align="center"> My Habits </h1>
 
 <p align="center">
-Esse é meu app para me ajudar a rastrear os meus hábitos. <br/>
-
-</p>
-
-<p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
