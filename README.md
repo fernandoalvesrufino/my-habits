@@ -40,7 +40,8 @@ You can view the project layout through [THIS LINK](https://www.figma.com/commun
 ## :memo: License
 This project is under the MIT license.
 
-<br><br>
+<br>
+<br>
 
 ## README in Portuguese
 
